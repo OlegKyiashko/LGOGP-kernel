@@ -1,0 +1,10 @@
+# cpuquit governor
+obj-$(CONFIG_CPUQUIET_GOVERNOR_BALANCED)	+= balanced.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_RUNNABLE)	+= runnable_threads.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_RQ_STATS)	    += rq_stats.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_MAKO_HOTPLUG)	    += mako_hotplug.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_LOAD_STATS)	    += load_stats.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_DYN_HOTPLUG)	    += dyn_hotplug.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_AUTO_HOTPLUG)	    += auto_hotplug.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_INTELLI_PLUG)	    += intelli_plug.o
+obj-$(CONFIG_CPUQUIET_GOVERNOR_SIMPLE_PLUG)	    += simple_plug.o
